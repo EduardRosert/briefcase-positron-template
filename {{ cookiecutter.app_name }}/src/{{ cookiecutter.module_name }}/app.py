@@ -164,6 +164,8 @@ def main():
     pygame.quit()
 {% elif cookiecutter.gui_framework in ('PositronDjango', 'PositronStatic') -%}
 {%- if cookiecutter.gui_framework == 'PositronDjango' %}
+# code taken from https://github.com/beeware/toga/tree/main/examples/positron-django
+
 import os
 import socketserver
 from threading import Event, Thread
@@ -179,6 +181,8 @@ import toga
 class ThreadedWSGIServer(socketserver.ThreadingMixIn, WSGIServer):
     pass
 {%- else %}
+# code taken from https://github.com/beeware/toga/tree/main/examples/positron-static
+
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from threading import Event, Thread
 
