@@ -6,7 +6,7 @@ Then, we will start building the BeeWare project and link it up with the already
 
 ## Before coming to the workshop
 - make sure you have set up a virtual environment ([see here](https://docs.beeware.org/en/latest/tutorial/tutorial-0.html))
-- download [Xcode](the macOS App Store) if you want to build an iOS app
+- download [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12) if you want to build an iOS app
 - bring your own Django app, or use the one on [Django tutorial](https://docs.djangoproject.com/en/4.2/intro/tutorial01/) - we need the code ready to use
 
 ---
@@ -31,7 +31,7 @@ $ python -m pip install briefcase cookiecutter Django
 
 ## Creating the project
 
-Normally, if you follow the [official tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-1.html), we will create a new project using the `briefcase new` command. With that command, briefcase will generate a new project using the default template using it's CLI. However, since we want to use the positron template, we will use cookiecutter to create our new project:
+Normally, if you follow the [official tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-1.html), we will create a new project using the `briefcase new` command. With that command, briefcase will generate a new project using the default template using it's CLI. However, since we want to use the positron Django template, we will use cookiecutter to create our new project:
 
 ```
 $ cookiecutter https://github.com/Cheukting/briefcase-positron-template.git
