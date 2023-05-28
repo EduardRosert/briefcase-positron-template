@@ -1,6 +1,6 @@
 # Let's build a BeeWare app that uses Django
 
-In this workshop, we will go through the basics of building a BeeWare app. However, instead of starting from scratch, we will assume that we have a Django app that is already built - feel free to bring your own, I will use the first step tutorial on Django documentation.
+In this workshop, we will go through the basics of building a BeeWare app. However, instead of starting from scratch, we will assume that we have a Django app that is already built - feel free to bring your own, I will use the [first step tutorial on Django documentation](https://docs.djangoproject.com/en/4.2/intro/tutorial01/).
 
 Then, we will start building the BeeWare project and link it up with the already working Django app. After building our example, we will also discover other alternatives that BeeWare can work with Django so in the future, if you are building another BeeWare app, you can decide which method you want to use.
 
