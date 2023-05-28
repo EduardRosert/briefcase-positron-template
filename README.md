@@ -85,7 +85,7 @@ You should see the Django "rocket" running in your app. It means that the Django
 
 ## Bring the Django app over to BeeWare
 
-From here, there are two options. We use the Django tutorial app](https://docs.djangoproject.com/en/4.2/intro/tutorial01/) as an example but it follows similar principles if you are using your own Django app.
+From here, there are two options. We use the [Django tutorial app](https://docs.djangoproject.com/en/4.2/intro/tutorial01/) as an example but it follows similar principles if you are using your own Django app.
 
 ---
 
