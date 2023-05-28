@@ -98,7 +98,7 @@ $ cd positron/src/webapp
 $ python -m manage.py startapp polls
 ```
 
-To add a new app `pools` and develop the Django tutorial app from there. You have to make sure that the module paths matches with the new project structure (see option 2 below)
+To add a new app `polls` and develop the Django tutorial app from there. You have to make sure that the module paths matches with the new project structure (see option 2 below)
 
 ### 2) copy your app over
 
