@@ -113,7 +113,7 @@ Go to `positron/src/webapp` and use the command:
 
 ```
 $ cd positron/src/webapp
-$ python -m manage.py startapp polls
+$ python manage.py startapp polls
 ```
 
 To add a new app `polls` and develop the Django tutorial app from there. You have to make sure that the module paths matches with the new project structure (see option 2 below)
