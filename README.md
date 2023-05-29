@@ -73,7 +73,13 @@ Once you hit enter, you will be asked for various options. Here are the recommen
 
 - branch - Accept the default (don't worry about it now)
 
-After inputing all the values, a project folder will be generate. Look into `positron/src/positron/app.py` you will see the positron app set up is actually a Togo app that created a web server and using the `toga.WebView()` to bring in the interface. Notice that the `DJANGO_SETTINGS_MODULE` is set to `webapp.webapp.settings`.
+After inputing all the values, a project folder `positron/` will be generate. Go to that directory:
+
+```
+$ cd positron/
+```
+
+Look into `positron/src/positron/app.py` you will see the positron app set up is actually a Togo app that created a web server and using the `toga.WebView()` to bring in the interface. Notice that the `DJANGO_SETTINGS_MODULE` is set to `webapp.webapp.settings`.
 
 ## Make sure the Django App is running
 
