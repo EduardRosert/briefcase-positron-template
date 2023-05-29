@@ -183,7 +183,7 @@ system_runtime_requires = [
 {%- endif %}
 ]
 
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.linux.appimage]
+[tool.briefcase.app.{{ cookiecutter.app_name }}.linux.appimage]
 manylinux = "manylinux2014"
 
 system_requires = [
@@ -215,7 +215,7 @@ linuxdeploy_plugins = [
 {% endif -%}
 ]
 
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.linux.flatpak]
+[tool.briefcase.app.{{ cookiecutter.app_name}}.linux.flatpak]
 {%- if cookiecutter.gui_framework in ("Toga", "PositronDjango", "PositronStatic") %}
 flatpak_runtime = "org.gnome.Platform"
 flatpak_runtime_version = "44"
@@ -230,7 +230,7 @@ flatpak_runtime_version = "22.08"
 flatpak_sdk = "org.freedesktop.Sdk"
 {%- endif %}
 
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.windows]
+[tool.briefcase.app.{{ cookiecutter.app_name }}.windows]
 requires = [
 {%- if cookiecutter.gui_framework in ("Toga", "PositronDjango", "PositronStatic") %}
     "toga-winforms~=0.3.1",
@@ -238,7 +238,7 @@ requires = [
 ]
 
 # Mobile deployments
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.iOS]
+[tool.briefcase.app.{{ cookiecutter.app_name }}.iOS]
 {%- if cookiecutter.gui_framework in ("Toga", "PositronDjango", "PositronStatic") %}
 requires = [
     "toga-iOS~=0.3.1",
@@ -248,7 +248,7 @@ requires = [
 supported = false
 {%- endif %}
 
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.android]
+[tool.briefcase.app.{{ cookiecutter.app_name }}.android]
 {%- if cookiecutter.gui_framework in ("Toga", "PositronDjango", "PositronStatic") %}
 requires = [
     "toga-android~=0.3.1"
@@ -258,7 +258,7 @@ supported = false
 {%- endif %}
 
 # Web deployments
-[tool.briefcase.app.{{ cookiecutter.app_name|  }}.web]
+[tool.briefcase.app.{{ cookiecutter.app_name }}.web]
 {%- if cookiecutter.gui_framework in ("Toga", "PositronDjango", "PositronStatic") %}
 requires = [
     "toga-web~=0.3.1",
