@@ -142,7 +142,7 @@ You should see the positron app bring you to the first page of your app.
 
 ## Packaging and making it mobile
 
-When our app looks good and ready to deploy, we will follow the [rest of the steps of the BeeWare tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-3.html) to packaging and [make it mobile](https://docs.beeware.org/en/latest/tutorial/tutorial-5/index.html). If you like the tutorial so far, make sure to check the rest of the BeeWare tutorial to learn more about BeeWare.
+When our app looks good and ready to deploy, we will follow the rest of the steps of the BeeWare tutorial to [packaging](https://docs.beeware.org/en/latest/tutorial/tutorial-3.html) and [make it mobile](https://docs.beeware.org/en/latest/tutorial/tutorial-5/index.html). If you like the tutorial so far, make sure to check the rest of the BeeWare tutorial to learn more about BeeWare.
 
 ## Conclusion and alternatives
 
