@@ -41,25 +41,37 @@ $ cookiecutter https://github.com/Cheukting/briefcase-positron-template.git
 
 Once you hit enter, you will be asked for various options. Here are the recommended options for this workshop:
 
-- Formal Name - `Positron`
+- formal_name - `Positron`
 
-- App Name - `positron`
+- app_name - Accept the default `positron`
 
-- Bundle - Accept the default bundle (com.example)
+- class_name - Accept the default `positron`
 
-- Project Name - `Positron`
+- module_name - Accept the default `positron`
 
-- Description - Accept the default value (or enter your own)
+- project_name - `Positron`
 
-- Author - Your name
+- description - Accept the default value (or enter your own)
 
-- Author’s email - Your email address. This will be used when submitting the app to an app store.
+- author - Your name
 
-- URL - Accept the default URL (https://example.com/helloworld). It will only be used if you publish your application to an app store. We do not need a real one for now.
+- author_email - Your email address. This will be used when submitting the app to an app store.
 
-- License - Accept the default license (BSD) (or choose your own)
+- bundle - Accept the default bundle (com.example)
 
-- GUI framework - Choose 6: PositronDjango.
+- url - Accept the default URL (https://example.com/helloworld). It will only be used if you publish your application to an app store. We do not need a real one for now.
+
+- license - Accept the default license (BSD) (or choose your own)
+
+- gui_framework - Choose 6: PositronDjango
+
+- test_framework - Accept the default `pytest`
+
+- briefcase_version - Accept the default (don't worry about it now)
+
+- template - Accept the default (don't worry about it now)
+
+- branch - Accept the default (don't worry about it now)
 
 After inputing all the values, a project folder will be generate. Look into `positron/src/positron/app.py` you will see the positron app set up is actually a Togo app that created a web server and using the `toga.WebView()` to bring in the interface. Notice that the `DJANGO_SETTINGS_MODULE` is set to `webapp.webapp.settings`.
 
